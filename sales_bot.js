@@ -118,6 +118,13 @@ const postSaleToDiscord = (title, price, date, signature, imageURL) => {
                             "value": `${date}`,
                             "inline": true
                         },
+
+                        {
+                            "name": "Marketplace",
+                            "value": `${marketplace}`,
+                            "inline": true
+                        },
+
                         {
                             "name": "Explorer",
                             "value": `https://explorer.solana.com/tx/${signature}`
